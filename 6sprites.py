@@ -20,6 +20,7 @@ while corriendo:
     # Obtener posición del ratón y calcular ángulo
     mouse_x, mouse_y = pygame.mouse.get_pos()
     angulo = math.atan2(mouse_y - 300, mouse_x - 400) * 180 / math.pi
+    print("Angulo: ", angulo)
 
     # Rotar la imagen redimensionada
     imagen_rotada = pygame.transform.rotate(imagen, -angulo)

@@ -4,7 +4,7 @@ ventana = pygame.display.set_mode((800, 600))
 blanco = (255, 255, 255)
 azul = (0, 0, 255)
 x, y = 400, 300
-velocidad = 1
+velocidad = 5
 corriendo = True
 while corriendo:
     for evento in pygame.event.get():

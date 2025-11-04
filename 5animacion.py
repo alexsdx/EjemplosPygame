@@ -12,6 +12,7 @@ while corriendo:
         if evento.type == pygame.QUIT:
             corriendo = False
     x += velocidad_x
+    print(x)
     if x > 750 or x < 50:
         velocidad_x = -velocidad_x
     ventana.fill(blanco)
